@@ -1,0 +1,40 @@
+@media (max-width: 900px) {
+    .feature {
+        flex-direction: column;
+        gap: 24px;
+        text-align: center;
+    }
+    .feature__img {
+        width: 100%;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        background: #5865f2 url('/images/header-background-mobile.png') no-repeat center center;
+        background-size: cover;
+        padding: 40px 10px 24px;
+    }
+    .hero__title {
+        font-size: 2rem;
+    }
+    .hero__subtitle {
+        font-size: 1rem;
+    }
+    .btn {
+        padding: 10px 16px;
+        font-size: 0.95rem;
+    }
+    main {
+        padding: 20px 8px;
+    }
+    .connection__img {
+        width: 100%;
+        max-width: 260px;
+    }
+    .footer__logo {
+        width: 90px;
+    }
+}
