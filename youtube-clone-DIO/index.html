@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="assets/img/icon-youtube.png" type="image/png">
+   <link rel="stylesheet" href="assets/css/global.css">
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <title>Desafio Clone da Página do Youtube</title>
+</head>
+<body>
+   <header class="header">
+      <div class="header__brand">
+         <button class="header__menu-btn" aria-label="Abrir menu">
+            <i class="fa-solid fa-bars"></i>
+         </button>
+         <img src="assets/img/logo-youtube.png" alt="Logo do Youtube" class="header__logo">
+      </div>
+      <form class="header__search" role="search" aria-label="Pesquisar vídeos">
+         <input type="text" placeholder="Pesquisar" aria-label="Pesquisar">
+         <button type="submit" aria-label="Buscar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+         </button>
+      </form>
+      <div class="header__actions">
+         <button class="header__action-btn" aria-label="Vídeos">
+            <i class="fa-regular fa-circle-play"></i>
+         </button>
+         <button class="header__action-btn" aria-label="Notificações">
+            <i class="fa-regular fa-bell"></i>
+         </button>
+      </div>  
+   </header>
+
+   <main class="main-content">
+      <section class="main-content__video-section">
+         <div class="cover-image-container">
+            <img src="https://i.ytimg.com/vi/8BQR-E-P0pc/maxresdefault.jpg" alt="">
+         </div>
+         <h1 class="cover-image__title">Conheça a DIO</h1>
+         <div class="video-meta">
+            <div class="video-meta__channel">
+               <img src="assets/img/channel-dio.png" alt="Avatar do canal DIO" class="video-meta__avatar">
+               <div>
+                  <h3 class="video-meta__name">DIO</h3>
+                  <p class="video-meta__subs">100 mil inscritos</p>
+               </div>
+            </div>
+            <button class="video-meta__subscribe-btn">Inscreva-se</button>
+            <div class="video-meta__actions">
+               <button class="video-meta__action" aria-label="Curtir">
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <span>2 mil</span>
+               </button>
+               <button class="video-meta__action" aria-label="Não gostei">
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <span>Não gostei</span>
+               </button>
+               <button class="video-meta__action" aria-label="Compartilhar">
+                  <i class="fa-solid fa-share"></i>
+                  <span>Compartilhar</span>
+               </button>
+               <button class="video-meta__action" aria-label="Download">
+                  <i class="fa-solid fa-download"></i>
+                  <span>Download</span>
+               </button>
+            </div>
+         </div>
+         <div class="video-player__stats">
+            <p>28.418 visualizações &nbsp;•&nbsp; 23 de ago. de 2022</p>
+         </div>
+
+         <div class="video-player__description">
+            <h2 class="video-player__description-title">Sobre este vídeo</h2>
+            <p class="video-player__description-text">
+               Conheça a Digital Innovation One, uma plataforma de educação online que oferece cursos gratuitos e pagos em tecnologia, com foco em desenvolvimento de software, ciência de dados, e muito mais. A DIO conecta estudantes a oportunidades reais no mercado de trabalho, através de parcerias com empresas líderes do setor.
+            </p>
+            <ul class="video-player__description-list">
+               <li><strong>Categoria:</strong> Tecnologia</li>
+               <li><strong>Publicado em:</strong> 14 de ago. de 2023</li>
+               <li><strong>Canal:</strong> DIO</li>
+            </ul>
+         </div>
+      </section>
+      
+      <aside class="main-content__sidebar">
+         <!-- Playlist Thumbnails -->
+         <div class="sidebar__item">
+            <img src="assets/img/thumbnails/thumb-01.png" alt="Thumb: Geração Tech Unimed - BH - Ciência de Dados" class="sidebar__thumb">
+            <div class="sidebar__info">
+               <h2 class="sidebar__title">Geração Tech Unimed - BH - Ciência de Dados</h2>
+               <p class="sidebar__channel">DigitalInnovationOne</p>
+               <div class="sidebar__meta">
+                  <span>2,1 mil visualizações</span>
+                  <span>•</span>
+                  <span>Transmitido há 2 dias</span>
+               </div>
+            </div>
+         </div>
+
+         <div class="sidebar__item">
+            <img src="assets/img/thumbnails/thumb-02.png" alt="Thumb: Scrum Talks" class="sidebar__thumb">
+            <div class="sidebar__info">
+               <h2 class="sidebar__title">Scrum Talks</h2>
+               <p class="sidebar__channel">DigitalInnovationOne</p>
+               <div class="sidebar__meta">
+                  <span>1,6 mil visualizações</span>
+                  <span>•</span>
+                  <span>Transmitido há 3 dias</span>
+               </div>
+            </div>
+         </div>
+
+         <div class="sidebar__item">
+            <img src="assets/img/thumbnails/thumb-03.png" alt="Thumb: Machine Learning Avançado - Fast Track" class="sidebar__thumb">
+            <div class="sidebar__info">
+               <h2 class="sidebar__title">Machine Learning Avançado - Fast Track</h2>
+               <p class="sidebar__channel">DigitalInnovationOne</p>
+               <div class="sidebar__meta">
+                  <span>1,7 mil visualizações</span>
+                  <span>•</span>
+                  <span>Transmitido há 4 dias</span>
+               </div>
+            </div>
+         </div>
+
+         <div class="sidebar__item">
+            <img src="assets/img/thumbnails/thumb-01.png" alt="Thumb: Geração Tech Unimed - BH - Ciência de Dados" class="sidebar__thumb">
+            <div class="sidebar__info">
+               <h2 class="sidebar__title">Geração Tech Unimed - BH - Ciência de Dados</h2>
+               <p class="sidebar__channel">DigitalInnovationOne</p>
+               <div class="sidebar__meta">
+                  <span>2,1 mil visualizações</span>
+                  <span>•</span>
+                  <span>Transmitido há 2 dias</span>
+               </div>
+            </div>
+         </div>
+
+         <div class="sidebar__item">
+            <img src="assets/img/thumbnails/thumb-02.png" alt="Thumb: Scrum Talks" class="sidebar__thumb">
+            <div class="sidebar__info">
+               <h2 class="sidebar__title">Scrum Talks</h2>
+               <p class="sidebar__channel">DigitalInnovationOne</p>
+               <div class="sidebar__meta">
+                  <span>1,6 mil visualizações</span>
+                  <span>•</span>
+                  <span>Transmitido há 3 dias</span>
+               </div>
+            </div>
+         </div>
+
+         <div class="sidebar__item">
+            <img src="assets/img/thumbnails/thumb-03.png" alt="Thumb: Machine Learning Avançado - Fast Track" class="sidebar__thumb">
+            <div class="sidebar__info">
+               <h2 class="sidebar__title">Machine Learning Avançado - Fast Track</h2>
+               <p class="sidebar__channel">DigitalInnovationOne</p>
+               <div class="sidebar__meta">
+                  <span>1,7 mil visualizações</span>
+                  <span>•</span>
+                  <span>Transmitido há 4 dias</span>
+               </div>
+            </div>
+         </div>
+      </aside>
+   </main>
+</body>
+</html>
